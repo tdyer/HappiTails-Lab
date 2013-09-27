@@ -38,20 +38,19 @@ you can see the history
 
 - Client:
 	- A client should have a name.
-	- A client should have a number of children.
 	- A client should have an age.
 	- A client should have a number of pets.
   - A client should have a hash of pets (with pet names as keys and animal (object) as values)
-  - A client should be able to adopt a pet from the shelter
-  - A client should be able to return a pet to the shelter
+  - A client should be able to accept a pet and add it to their pets list
+  - A client should be able to give up a pet from their list
 
 - Shelter:
-  - The shelter should have a name
-  - The shelter should have an address
+  - The shelter should have a name.
+  - The shelter should have an address.
 	- The shelter should be able to return all the clients.
 	- The shelter should be able to return all the animals.
-  - The shelter should be able to accept an animal (add to it's list)
-  - The shelter should be able to accept a client (add to it's list)
+  - The shelter should be able to accept an animal (add to it's list).
+  - The shelter should be able to accept a client (add to it's list).
 
 - Relationships:
 	- The shelter should be able to give a pet to a client
